@@ -1,0 +1,168 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - how_can_i_manage_my_budget
+  - How_can_I_manage_my_budget_as_a_medical_student
+  - How_can_I_manage_my_budget_as_a_computer_science_student
+  - How_can_I_manage_my_budget_as_a_law_student
+  - How_can_I_manage_my_budget_as_an_engineering_student
+  - How_can_I_manage_my_budget_as_an_economics_student
+  - How_can_I_manage_my_budget_as_a_literature_student
+  - Ways_to_earn_pocket_money_as_a_student
+  - How_can_I_track_my_expenses_and_savings
+  - How_to_avoid_debts_as_a_student
+  - How_can_I_maximize_my_financial_aid_and_scholarships
+  - How_can_I_reduce_my_living_expenses_such_as_food_transportation_and_housing
+  - How_can_I_save_money_on_my_monthly_bills_such_as_phone_and_internet_services
+ 
+
+  
+responses:
+
+  utter_botgreet: 
+  - text: "how can i help you sir?"
+
+  utter_greet:
+  - text: "Hey! How are you?" 
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_budget: 
+  - text: "To manage your budget effectively as a student:\n
+      ✔️Create a monthly budget.\n
+      ✔️Prioritize essential expenses such as tuition fees, housing, and food.\n
+      ✔️Cut back on unnecessary expenses.\n
+      ✔️Use tools to track your spending.\n
+      ✔️Save money by using coupons and buying generic products. "
+
+  utter_medical:
+  - text: " As a medical student:\n
+   ✔️Assess the high costs of tuition fees, books, instruments, uniforms, etc…\n
+   ✔️Reduce your living costs by finding affordable housing, sharing with other students.\n
+   ✔️Cooking at home.\n
+   ✔️Save on textbooks by looking for used or digital editions, work part-time in flexible jobs such as tutoring or lab work. "
+
+  utter_computer_science:
+  - text: "As a computer science student:\n
+      ✔️Saving on software and hardware.\n
+      ✔️Using your institution's resources.\n
+      ✔️Saving on transportation costs.\n
+      ✔️Looking for paid internship opportunities.\n
+      ✔️Saving on entertainment expenses "
+
+  utter_law:
+  - text: " As a law student:\n
+   ✔️Looking for funding opportunities.\n
+   ✔️Saving money on textbooks.\n
+   ✔️Planning ahead for internships.\n
+   ✔️Using free resources offered by educational institutions.\n
+    "
+
+  utter_engineering:
+  - text: "As an engineering student:\n
+   ✔️Look for student offers and discounts on equipment.\n
+   ✔️consider purchasing used or refurbished devices to save money.\n
+   ✔️Utilize resources offered by your educational institution.\n
+   ✔️Seek paid internship opportunities at technology companies to gain experience and earn money.\n
+   ✔️Save on transportation costs by using affordable options such as public transportation.\n
+   "
+ 
+  utter_economics:
+  - text: "As an economics student.\n
+   ✔️Looking for funding opportunities such as scholarships and grants.\n
+   ✔️Saving on textbooks through used offers or digital editions.\n
+   ✔️Utilizing institutional resources.\n
+   ✔️Saving on transportation costs through affordable options such as public transport, carpooling.\n
+   " 
+
+  utter_literature:
+  - text: "As a literature student:\n
+   ✔️Plan your budget by identifying your income and expenses.\n
+   ✔️Saving on books by purchasing used books, borrowing from the library.\n
+   ✔️Take advantage of your institution's free resources.\n
+   ✔️Researching and applying for scholarships for literature students.\n
+   ✔️Saving on meals by eating at affordable places .\n
+   "
+
+  utter_pocket:
+  - text: " Ways to earn pocket money as a student:\n
+    ✔️Find a part-time job: Look for job offers in restaurants, supermarkets, cafes, retail stores, or tutoring.\n
+    ✔️Do online work: Earn money online by taking surveys, writing articles, doing web development, etc.\n
+    ✔️Participate in market research: Join market and opinion studies for research organizations and companies.\n
+    ✔️Sell used products: Sell clothes, books, or electronic devices you no longer use on websites like eBay or Leboncoin.\n
+    "
+   
+  utter_saving:
+  - text: "To track your expenses and savings as a student:\n
+   ✔️Create a budget using a spreadsheet or budgeting app to track all expenses and income.\n
+   ✔️Keep receipts manually and review them at the end of each month. \n
+   ✔️Use expense-tracking apps like Mint and PocketGuard to automatically track expenses.\n
+   ✔️Plan and automate savings by setting goals and automatic transfers.\n
+   ✔️Regularly review expenses and savings to identify areas for improvement.\n
+    "
+
+  utter_debts:
+  - text: " Ways to avoid debts as a student:\n
+  ✔️Make a realistic budget and stick to it.\n
+  ✔️Avoid impulse purchases, compare prices, and buy used items.\n
+  ✔️Look for scholarships and other financial aid options.\n
+  ✔️Work part-time to earn extra money.\n
+  ✔️Avoid high-interest credit cards and use credit wisely.\n
+  ✔️Avoid unnecessary expenses such as eating out frequently or buying expensive items.
+  "
+
+  utter_minimisefina:
+  - text: "There are several strategies you can use to maximize your financial aid and scholarships:\n
+  ✔️Research available scholarships and grants from various sources. \n
+  ✔️Apply early as scholarships are often awarded on a first-come, first-served basis.\n
+  ✔️Fill out all sections of application forms and provide all requested information.\n
+  ✔️Highlight academic achievements, extracurricular activities, work experiences, and community involvement in applications.\n
+  ✔️Stay up to date with deadlines and reapply each year for renewable scholarships.\n
+  ✔️Consider alternative funding sources such as student loans or work-study programs. \n
+   "
+
+  utter_reduce:
+  - text: " There are several ways to reduce your living expenses:\n
+   ✔️Look for store brands and products on sale when grocery shopping.\n
+   ✔️Use public transportation instead of owning a car or taking a taxi.\n
+   ✔️Walk or bike to work or school if possible.\n
+   ✔️Consider finding roommates to reduce housing and overall expenses.\n
+   ✔️Research financial assistance programs or student discounts available in your area.
+   " 
+
+  utter_internet:
+  - text: "Here are some tips for saving money on your monthly phone and internet bills:\n
+   ✔️Compare providers and choose the one that best suits your needs and budget.
+   ✔️Negotiate with your current provider for a more competitive rate.
+   ✔️Opt for basic packages if you don't need all the services offered by your provider.
+   ✔️Save on bundled services by choosing a package that includes phone, internet, and TV.
+   ✔️Avoid hidden fees by reading the terms and conditions of your service contract with your provider.
+   "
+
+
+ 
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

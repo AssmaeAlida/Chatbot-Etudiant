@@ -1,0 +1,167 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: happy path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: bye story
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: budget path 1
+  steps: 
+  - intent: greet
+  - action: utter_greet
+  - intent: how_can_i_manage_my_budget
+  - action: utter_budget
+  - intent: How_can_I_manage_my_budget_as_a_medical_student
+  - action: utter_medical
+  - intent: How_can_I_manage_my_budget_as_a_computer_science_student
+  - action: utter_computer_science
+  - intent: How_can_I_manage_my_budget_as_a_law_student
+  - action: utter_law
+  - intent: How_can_I_manage_my_budget_as_an_engineering_student
+  - action: utter_engineering
+  - intent: How_can_I_manage_my_budget_as_an_economics_student
+  - action: utter_economics
+  - intent: How_can_I_manage_my_budget_as_a_literature_student
+  - action: utter_literature
+  - intent: Ways_to_earn_pocket_money_as_a_student
+  - action: utter_pocket
+  - intent: How_can_I_track_my_expenses_and_savings
+  - action: utter_saving
+  - intent: How_to_avoid_debts_as_a_student
+  - action: utter_debts
+  - intent: How_can_I_maximize_my_financial_aid_and_scholarships
+  - action: utter_minimisefina
+  - intent: How_can_I_reduce_my_living_expenses_such_as_food_transportation_and_housing
+  - action: utter_reduce
+  - intent: How_can_I_save_money_on_my_monthly_bills_such_as_phone_and_internet_services
+  - action: utter_internet
+   
+
+- story: budget path 10
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: how_can_i_manage_my_budget
+  - action: utter_budget
+  
+- story: budget path 9
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: How_can_I_manage_my_budget_as_a_medical_student
+  - action: utter_medical
+
+- story: budget path 2
+  steps:
+  - intent: greet
+  - action: utter_greet 
+  - intent: How_can_I_manage_my_budget_as_a_law_student
+  - action: utter_law
+
+- story: budget path 3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: How_can_I_manage_my_budget_as_a_medical_student
+  - action: utter_medical
+
+- story: budget path 4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: How_can_I_manage_my_budget_as_an_engineering_student
+  - action: utter_engineering
+
+- story: budget path 5
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: how_can_i_manage_my_budget
+  - action: utter_budget
+
+- story: budget path 6
+  steps:
+  - intent: greet
+  - action: utter_greet 
+  - intent: How_can_I_manage_my_budget_as_a_computer_science_student
+  - action: utter_computer_science
+
+- story: budget path 7
+  steps:
+  - intent: greet
+  - action: utter_greet 
+  - intent: How_can_I_manage_my_budget_as_an_economics_student
+  - action: utter_economics
+
+- story: budget path 8
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: How_can_I_manage_my_budget_as_a_literature_student
+  - action: utter_literature
+
+- story: budget path 11
+  steps:
+  - intent: Ways_to_earn_pocket_money_as_a_student
+  - action: utter_pocket
+
+- story: budget path 12
+  steps:
+  - intent: How_can_I_track_my_expenses_and_savings
+  - action: utter_saving
+ 
+- story:  budget path 13
+  steps:
+  - intent: How_to_avoid_debts_as_a_student
+  - action: utter_debts
+
+- story: budget path 14
+  steps:
+  - intent: How_can_I_maximize_my_financial_aid_and_scholarships
+  - action: utter_minimisefina
+
+- story: budget path 15
+  steps:
+  - intent: How_can_I_reduce_my_living_expenses_such_as_food_transportation_and_housing
+  - action: utter_reduce
+
+- story: budget path 16
+  steps:
+  - intent: How_can_I_save_money_on_my_monthly_bills_such_as_phone_and_internet_services
+  - action: utter_internet   
+
+
+ 
+
+   
+
+
+
+
+

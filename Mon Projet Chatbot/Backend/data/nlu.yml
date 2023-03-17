@@ -1,0 +1,218 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - fine
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: how_can_i_manage_my_budget
+  examples: | 
+    -how can i manage my budget
+    -as a student how can i manage my budget?
+    -What are some tips for managing my budget 
+    -how can I effectively manage my budget
+    -I want to manage my budget better , what strategies can I use
+    -Are there any specific techniques for budget management 
+    -What steps can I take to ensure that I'm managing my budget properly
+
+- intent: How_can_I_manage_my_budget_as_a_medical_student
+  examples: |
+    -How can I manage my budget as a medical student?
+    -What are some strategies for budgeting as a medical student?
+    -As a medical student, how can I effectively manage my finances?
+    -What tips do you have for budgeting as a student of medicine?
+    -Can you offer advice on how to budget wisely while studying medicine?
+    -I'm a medical student looking to better manage my budget , what steps can I take?
+
+- intent: How_can_I_manage_my_budget_as_a_computer_science_student
+  examples: |
+    -how can i manage my budget as a computer science student
+    -What are some ways for me to manage my budget as a computer science student?
+    -As a computer science student, what steps can I take to effectively manage my   budget?
+    -What are some budget management strategies for a student studying computer science?
+    -How can I budget my finances as a computer science student?
+    -As an individual studying computer science, what are some practical tips for managing my budget effectively?
+
+- intent: How_can_I_manage_my_budget_as_a_law_student
+  examples: |
+   - How can I manage my budget as a law student
+   - What are some ways to effectively manage my budget as a law student?
+   - As a law student, what strategies can I use to manage my finances?
+   - I'm studying law - what tips do you have for managing my budget?
+   - What are some specific budgeting techniques that law students can use?
+   - How can I balance my finances while studying law?
+
+- intent: How_can_I_manage_my_budget_as_an_engineering_student
+  examples: |
+   - How can I manage my budget as a engineering student?
+   - What are some ways to effectively manage my budget as a engineering student?
+   - As a engineering student, what strategies can I use to manage my finances?
+   - I'm studying engineering,  what tips do you have for managing my budget?
+
+- intent: How_can_I_manage_my_budget_as_an_economics_student
+  examples: |
+   - How can I manage my budget as an economics student?
+   - What are some effective ways for an economics student to manage their budget?
+   - As a student of economics, how can I best manage my budget?
+   - What budget management strategies would you recommend for someone studying economics?
+   - Are there any specific tips or tricks for managing finances that are particularly useful for an economics student like myself?
+   - For someone studying economics, what would be the most efficient way to manage their budget?
+
+- intent: How_can_I_manage_my_budget_as_a_literature_student
+  examples: |
+   - How can I manage my budget as a literature student?
+   - What are some effective budget management strategies for a literature student?
+   - As a student of literature, what are some tips for managing my budget effectively?
+   - How can I budget my finances as a student studying literature?
+   - Are there any specific budgeting tricks that are especially useful for literature students like myself?
+   - For someone studying literature, what would be the best way to manage their budget efficiently?
+
+- intent: Ways_to_earn_pocket_money_as_a_student
+  examples: |
+   - Ways to earn pocket money as a student
+   - What are some methods for earning extra cash as a student?
+   - As a student, what are some ways to make money on the side?
+   - How can I earn pocket money while studying as a student?
+   - What are the different ways for a student to earn some extra money?	
+   - I'm a student looking to make some extra cash. What are some options available to me?
+
+- intent: How_can_I_track_my_expenses_and_savings
+  examples: |
+   -How can I track my expenses and savings?
+   -What are some ways to keep track of my expenses and savings?
+   -Could you give me some advice on tracking my expenses and savings?
+   -What methods can I use to monitor my spending and saving habits?
+   -Is there a good way to track my expenses and savings?
+   -I'm looking for tips on how to keep track of my expenses and savings. Can you help me?
+
+- intent: How_to_avoid_debts_as_a_student
+  examples: |
+   - How to avoid debts as a student?
+   - What are some strategies for avoiding debt as a student?
+   - As a student, what steps can I take to prevent accumulating debt?
+   - How can I steer clear of debt while I'm in school?
+   - What are some practical tips for staying out of debt as a student?
+   - Are there any effective methods for avoiding student debt?
+
+- intent: How_can_I_maximize_my_financial_aid_and_scholarships
+  examples: |
+   - How can I maximize my financial aid and scholarships?
+   - What are some ways to increase the amount of financial aid and scholarships I receive?
+   - Can you offer any tips on how to make the most of my financial aid and scholarship opportunities?
+   - In what ways can I optimize my financial aid and scholarship options?
+   - Are there any strategies for maximizing the financial aid and scholarship support I receive for my education?
+   - I'm looking for advice on how to best utilize the financial aid and scholarship opportunities available to me. What would you recommend?
+
+- intent: How_can_I_reduce_my_living_expenses_such_as_food_transportation_and_housing
+  examples: |
+   - How can I reduce my living expenses, such as food, transportation, and housing?
+   -What are some ways to lower my living expenses, including food, transportation, and housing costs?
+   -Are there any strategies to cut down on my daily living expenses, like food, transportation, and housing costs?
+   -How can I decrease my cost of living, particularly when it comes to food, transportation, and housing?
+   -What are some tips for reducing my living costs, such as food, transportation, and housing expenses?
+   -In what ways can I minimize my daily expenses, particularly in relation to food, transportation, and housing costs?
+
+- intent: How_can_I_save_money_on_my_monthly_bills_such_as_phone_and_internet_services
+  examples: |
+   - How can I save money on my monthly bills, such as phone and internet services?
+   -What are some ways to cut costs on my monthly bills for phone and internet services?
+   -Are there any strategies I can use to reduce my expenses for phone and internet services?
+   -How can I lower my monthly bills for phone and internet services?
+   -What are some tips for saving money on phone and internet bills each month
+   -Are there any discounts or promotions available to help me save money on my phone and internet bills?
+   -What are some alternatives to traditional phone and internet services that might be more cost-effective?
+   -Can you recommend any specific plans or providers that offer affordable phone and internet services?
+
+
+
+
+
+ 
+
+
